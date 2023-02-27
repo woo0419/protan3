@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1300px;
+    margin: 30px auto;
+}
+.header .menu{
+    background: #00a2ff;
+    color: #fff;
+    padding: 10px;
+}
+.header .login{
+    background: #666;
+    color: #fff;
+    padding: 10px 20px;
+}
+.mainImg{
+    width: 100%;
+    vertical-align: top;
+}

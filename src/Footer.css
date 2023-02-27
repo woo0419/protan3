@@ -1,0 +1,29 @@
+.footer{
+    background: #333;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+}
+.f_t{
+    display: flex;
+    justify-content: center;
+}
+.f_t div{
+    padding: 10px 15px;
+    background: #666;
+    color: #ccc;
+    margin: 5px;
+}
+.f_t div:nth-child(2){
+    color: #fff;
+}
+.f_b{
+    margin: 20px;
+}
+.f_b div{
+    color: #ccc;
+}
+.topbtn{
+    color: #ccc;
+    letter-spacing: .2em;
+}

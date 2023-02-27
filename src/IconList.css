@@ -1,0 +1,23 @@
+.iconwrap{
+    max-width: 1300px;
+    margin: 0 auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.list{
+    width: 20%;
+    text-align: center;
+    border-right: 1px solid #ccc;
+}
+.list:last-child{
+    border: none;
+}
+.list img{
+    display: block;
+    margin: 0 auto;
+}
+.list span{
+    display: block;
+    margin: 10px;
+}
