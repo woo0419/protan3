@@ -20,6 +20,50 @@
   color: #ff0;
   text-decoration: underline;
 }
+/* Home slide */
+.row_c{
+  max-width: 1200px;
+  margin: 20px auto;
+  text-align: center;
+}
+.slide_info{
+  display: flex;
+  justify-content: space-between;
+}
+.slide_info img{
+  width: 100%;
+}
+.slide_academy{
+  width: 69.58%;
+}
+.info{
+  width: 27.16%;
+  background: #327fe4;
+  display: table;
+}
+.info span{
+  color: #fff;
+  font-size: 30px;
+  font-weight: bold;
+  display: table-cell;
+  vertical-align: middle;
+}
+/* Product Slide */
+.food_slide{
+  margin: 20px auto;
+}
+.food_slide img{
+  width: 100%;
+  vertical-align: top;
+}
+.food_slide .swiper-button-next:after, .food_slide .swiper-button-prev:after{
+  color: #fff;
+}
+.food_slide .swiper-pagination-bullet{
+  width: 10px;
+  height: 10px;
+  background: #fff;
+}
 /* login */
 .page{
   text-align: center;
@@ -73,7 +117,36 @@
   width: 50px;
   cursor: pointer;
 }
-
+/* list */
+.list_wrap{
+  max-width: 1000px;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #ccc;
+}
+.bnList{
+  width: 20%;
+  text-align: center;
+  border-right: 1px solid #ccc;
+  padding: 30px 0;
+}
+.bnImg{
+  margin-bottom: 20px;
+}
+.bnList:last-child{
+  border-right: none;
+}
+.bnSub{
+  font-size: 15px;
+  color: #666;
+}
+.bnTitle{
+  font-size: 20px;
+  color: #333;
+  font-weight: bold;
+}
+/* footer */
 .foot_wrap{
   text-align: center;
   background: #ddd;

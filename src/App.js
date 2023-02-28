@@ -6,6 +6,7 @@ import Login from './pages/Login';
 import Product from './pages/Product';
 import Counter from './pages/Counter';
 import Input from './pages/Input';
+import List from './pages/List';
 import NotFound from './pages/NotFound';
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
         <Route path="/product" element={<Product />} />
         <Route path="/counter" element={<Counter />} />
         <Route path="/input" element={<Input />} />
+        <Route path="/list" element={<List />} />
         <Route path="/*" element={<NotFound />} />
       </Routes>
       {/* footer component */}
