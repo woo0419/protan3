@@ -2,6 +2,7 @@ import { NavLink } from 'react-router-dom';
 import logo from './tanch_main/main_logo.jpg';
 function Header(){
     return(
+      /* header 컴포넌트 */
       <header className="top">
         <div className="logo">
           <NavLink to='/'>
